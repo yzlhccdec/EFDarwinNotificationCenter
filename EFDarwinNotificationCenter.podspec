@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/AaronYi/EFCore"
+  s.homepage     = "https://github.com/yzlhccdec/EFDarwinNotificationCenter"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
 
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/AaronYi/EFCore.git"}
+  s.source       = { :git => "https://github.com/yzlhccdec/EFDarwinNotificationCenter.git"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -86,10 +86,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'EFCore', 'EFCore/**/*.{h,m}'
-  # s.exclude_files = 'EFCore/Exclude'
+  s.source_files  = 'EFDarwinNotificationCenter', 'EFDarwinNotificationCenter/**/*.{h,m}'
+  # s.exclude_files = 'EFDarwinNotificationCenter/Exclude'
 
-  # s.public_header_files = 'EFCore/**/*.h'
+  # s.public_header_files = 'EFDarwinNotificationCenter/**/*.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -128,6 +128,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  s.dependency 'FMDB'
+  # s.dependency 'FMDB'
 
 end
