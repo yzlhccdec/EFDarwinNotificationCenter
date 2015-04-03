@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE1A92B1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CE1A92A1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.h */; };
+		2CE1A92D1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1A92C1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.m */; };
+		2CE1A9331ACEB8B400EBDF10 /* libEFDarwinNotificationCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE1A9271ACEB8B400EBDF10 /* libEFDarwinNotificationCenter.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE1A9341ACEB8B400EBDF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE1A91F1ACEB8B400EBDF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE1A9261ACEB8B400EBDF10;
+			remoteInfo = EFDarwinNotificationCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CE1A9251ACEB8B400EBDF10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2CE1A92B1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CE1A9271ACEB8B400EBDF10 /* libEFDarwinNotificationCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEFDarwinNotificationCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE1A92A1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EFDarwinNotificationCenter.h; sourceTree = "<group>"; };
+		2CE1A92C1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EFDarwinNotificationCenter.m; sourceTree = "<group>"; };
+		2CE1A9321ACEB8B400EBDF10 /* EFDarwinNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFDarwinNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE1A9381ACEB8B400EBDF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE1A9241ACEB8B400EBDF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE1A92F1ACEB8B400EBDF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE1A9331ACEB8B400EBDF10 /* libEFDarwinNotificationCenter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE1A91E1ACEB8B400EBDF10 = {
+			isa = PBXGroup;
+			children = (
+				2CE1A9291ACEB8B400EBDF10 /* EFDarwinNotificationCenter */,
+				2CE1A9361ACEB8B400EBDF10 /* EFDarwinNotificationCenterTests */,
+				2CE1A9281ACEB8B400EBDF10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE1A9281ACEB8B400EBDF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1A9271ACEB8B400EBDF10 /* libEFDarwinNotificationCenter.a */,
+				2CE1A9321ACEB8B400EBDF10 /* EFDarwinNotificationCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE1A9291ACEB8B400EBDF10 /* EFDarwinNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1A92A1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.h */,
+				2CE1A92C1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.m */,
+			);
+			path = EFDarwinNotificationCenter;
+			sourceTree = "<group>";
+		};
+		2CE1A9361ACEB8B400EBDF10 /* EFDarwinNotificationCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1A9371ACEB8B400EBDF10 /* Supporting Files */,
+			);
+			path = EFDarwinNotificationCenterTests;
+			sourceTree = "<group>";
+		};
+		2CE1A9371ACEB8B400EBDF10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1A9381ACEB8B400EBDF10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE1A9261ACEB8B400EBDF10 /* EFDarwinNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE1A93B1ACEB8B400EBDF10 /* Build configuration list for PBXNativeTarget "EFDarwinNotificationCenter" */;
+			buildPhases = (
+				2CE1A9231ACEB8B400EBDF10 /* Sources */,
+				2CE1A9241ACEB8B400EBDF10 /* Frameworks */,
+				2CE1A9251ACEB8B400EBDF10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFDarwinNotificationCenter;
+			productName = EFDarwinNotificationCenter;
+			productReference = 2CE1A9271ACEB8B400EBDF10 /* libEFDarwinNotificationCenter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2CE1A9311ACEB8B400EBDF10 /* EFDarwinNotificationCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE1A93E1ACEB8B400EBDF10 /* Build configuration list for PBXNativeTarget "EFDarwinNotificationCenterTests" */;
+			buildPhases = (
+				2CE1A92E1ACEB8B400EBDF10 /* Sources */,
+				2CE1A92F1ACEB8B400EBDF10 /* Frameworks */,
+				2CE1A9301ACEB8B400EBDF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE1A9351ACEB8B400EBDF10 /* PBXTargetDependency */,
+			);
+			name = EFDarwinNotificationCenterTests;
+			productName = EFDarwinNotificationCenterTests;
+			productReference = 2CE1A9321ACEB8B400EBDF10 /* EFDarwinNotificationCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE1A91F1ACEB8B400EBDF10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = aaronyi;
+				TargetAttributes = {
+					2CE1A9261ACEB8B400EBDF10 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2CE1A9311ACEB8B400EBDF10 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 2CE1A9221ACEB8B400EBDF10 /* Build configuration list for PBXProject "EFDarwinNotificationCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CE1A91E1ACEB8B400EBDF10;
+			productRefGroup = 2CE1A9281ACEB8B400EBDF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE1A9261ACEB8B400EBDF10 /* EFDarwinNotificationCenter */,
+				2CE1A9311ACEB8B400EBDF10 /* EFDarwinNotificationCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE1A9301ACEB8B400EBDF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE1A9231ACEB8B400EBDF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE1A92D1ACEB8B400EBDF10 /* EFDarwinNotificationCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE1A92E1ACEB8B400EBDF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CE1A9351ACEB8B400EBDF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE1A9261ACEB8B400EBDF10 /* EFDarwinNotificationCenter */;
+			targetProxy = 2CE1A9341ACEB8B400EBDF10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CE1A9391ACEB8B400EBDF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CE1A93A1ACEB8B400EBDF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE1A93C1ACEB8B400EBDF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2CE1A93D1ACEB8B400EBDF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2CE1A93F1ACEB8B400EBDF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EFDarwinNotificationCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CE1A9401ACEB8B400EBDF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EFDarwinNotificationCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE1A9221ACEB8B400EBDF10 /* Build configuration list for PBXProject "EFDarwinNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE1A9391ACEB8B400EBDF10 /* Debug */,
+				2CE1A93A1ACEB8B400EBDF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE1A93B1ACEB8B400EBDF10 /* Build configuration list for PBXNativeTarget "EFDarwinNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE1A93C1ACEB8B400EBDF10 /* Debug */,
+				2CE1A93D1ACEB8B400EBDF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CE1A93E1ACEB8B400EBDF10 /* Build configuration list for PBXNativeTarget "EFDarwinNotificationCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE1A93F1ACEB8B400EBDF10 /* Debug */,
+				2CE1A9401ACEB8B400EBDF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE1A91F1ACEB8B400EBDF10 /* Project object */;
+}
